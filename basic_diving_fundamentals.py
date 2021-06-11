@@ -105,3 +105,26 @@ elif answer_5 == "c":
     print("Incorrect! This is not a good practice. Always do pre-dive safety check to ensure enough air")
 else:
     print("This only occurs if dive deeper than 30m for long period")
+
+question_6 = '''
+f I work too hard and find it difficult to breathe underwater, 
+I should:
+a) inflate my BCD and immediately go to the surface.
+b) stop all activity and rest, hold onto something for 
+   support if possible.
+c) swim quickly to my buddy and signal for help
+d) do a controlled emergency swimming ascent (CESA – 
+swimming up to the surface saying the ah-h-h-h sound).
+'''
+
+print(question_6)
+
+answer_6 = input("Please key in your answer. a, b, c, or d?: ")
+if answer_6 == "a":
+    print("Incorrect")
+elif answer_6 == "b":
+    print("Correct!")
+elif answer_6 == "c":
+    print("Incorrect")
+else:
+    print("Incorrect")
